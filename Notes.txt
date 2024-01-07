@@ -1,0 +1,33 @@
+In this project we are going to learn how to make our app production ready.
+why we need to make our html css and javascript  production ready? what does it means?
+
+Making your HTML, CSS, and JavaScript "production-ready" refers to the process of 
+optimizing and preparing your web development code for deployment to a live, public environment. 
+This is important for several reasons:
+1. Performance
+2. Security
+3. Compatibility
+4. Error handling
+
+
+What is NPM?
+-> npm is the world's largest software registry.
+Open source developers from every continent use npm to share and borrow packages,
+and many organizations use npm to manage private development as well.
+
+How to use npm in our project?
+
+command: npm init
+
+after some configuration, package.json will be installed.
+
+What is package.json file?
+-> This file is nothing but the configuration for the npm.
+
+What is bundler package?
+
+
+There are two types of package or dependencies:
+1. dev dependencies: this is required in the development phase
+2. normal dependencies: and the normal dependencies can be used in the production also.
+

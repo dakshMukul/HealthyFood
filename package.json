@@ -1,0 +1,22 @@
+{
+  "name": "learn-react",
+  "version": "1.0.0",
+  "description": "I am learning react using this project",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "learn",
+    "react"
+  ],
+  "author": "Mukul Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
