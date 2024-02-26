@@ -23,10 +23,10 @@ const ItemCard = (props) => {
                 {item.card.info.description}
               </p>
             </div>
-            <div className=" p-2 w-3/12 h-32 overflow-hidden  ">
-              <div className="absolute hover:scale-105 ">
+            <div className=" p-2 md:w-3/12 md:h-32 w-20 h-20 overflow-hidden  ">
+              <div className="absolute hover:scale-105 flex">
                 <button
-                  className="p-1 bg-black text-white shadow-lg   mx-14 rounded-lg my "
+                  className="p-1 bg-black text-xs md:text-lg text-white shadow-lg md:mx-14 rounded-lg"
                   onClick={() => {
                     dispatch(addItem(item));
                   }}
